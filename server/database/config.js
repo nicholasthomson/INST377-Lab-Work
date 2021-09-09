@@ -1,23 +1,23 @@
 export default {
   development: {
-    username: 'student',
-    password: 'INST377@UMD',
+    username: 'ubuntu',
+    password: 'Veracrypt@12!',
     database: 'Dining_Hall_Tracker',
-    host: '3.236.243.212',
+    host: '54.196.33.144',
     dialect: 'mysql'
   },
   test: {
-    username: 'student',
-    password: 'INST377@UMD',
+    username: 'ubuntu',
+    password: 'Veracrypt@12!',
     database: 'Dining_Hall_Tracker',
-    host: '3.236.243.212',
+    host: '54.196.33.144',
     dialect: 'mysql'
   },
   production: {
-    username: 'student',
-    password: 'INST377@UMD',
+    username: 'ubuntu',
+    password: 'Veracrypt@12!',
     database: 'Dining_Hall_Tracker',
-    host: '3.236.243.212',
+    host: '54.196.33.144',
     dialect: 'mysql'
   }
 };
