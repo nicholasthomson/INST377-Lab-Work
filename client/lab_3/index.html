@@ -1,40 +1,51 @@
-YOUR NAME Lab 3: Flexbox Demo
-
-Selectors
-Main Page
-
-First, the basics.
-
-You need the following to build your website.
-
-HTML and CSS
-Javascript
-Node.js
-And other web development frameworks
-
-You should list your top 3 goals for the class below.
-
-Learn front-end web design
-Learn new programming languages
-Learn how to work with others in a technical space
-Learn popular web dev frameworks
-
-Let's Try Some Inline Elements
-
-Sometimes you want to draw attention to something in a line of text.
-
-Sometimes you want to strongly emphasize something in the text.
-
-Sometimes you want to do both.
-
-Empty Elements
-
-Soft line breaks can't wrap anything. Neither can image tags, or hard lines.
-Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.
-
-Images 
-
-Don't forget to use alt text on your images. It's important for accessibility.
-
-Include a hyperlink here to your github repository for class.
-If you want your repo to be private, be sure to invite Prof A as a "collaborator."
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Nick Thomson Lab 3: Flexbox Demo</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+      <h1 class='title'>Nick Thomson Lab 3: Flexbox Demo</h1>
+    <div class='menu-container'>
+        <div class='menu'>
+            <div class='date'>Aug 14, 2016</div>
+            <div class='links'>
+                <a href ='data.html'><div class='database-demos'>Database Demos</a></div>
+                <a href = 'index.html'><div class='main-page'>Main Page</a></div>
+            </div>
+          </div>
+    </div>
+    <div class='header-container'>
+        <div class='header'>
+          <a href='https://morning-earth-84145.herokuapp.com/lab3'><div class='project'>Project Link</a></div>
+          <div class='logo'><img src='images/awesome-logo.svg'/></div>
+          <div class='github'><a href='#https://github.com/nicholasthomson/INST377-Lab-Work.git'>My GitHub</a></div>
+        </div>
+      </div>
+      <div class='photo-grid-container'>
+        <div class='photo-grid'>
+          <div class='photo-grid-item first-item'>
+            <img src='images/one.svg'/>
+          </div>
+          <div class='photo-grid-item second-item'>
+            <img src='images/two.svg'/>
+          </div>
+          <div class='photo-grid-item third-item'>
+            <img src='images/three.svg'/>
+          </div>
+          <div class='photo-grid-item fourth-item'>
+            <img src='images/four.svg'/>
+          </div>
+          <div class='photo-grid-item last-item'>
+            <img src='images/five.svg'/>
+          </div>         
+        </div> 
+      </div>
+      <div class='footer'>
+        <div class='footer-item footer-one'> footer item 1 </div>
+        <div class='footer-item footer-two'>footer item 2 </div> 
+        <div class='footer-item footer-three'>footer item 3 </div>
+    </div>
+  </body>
+</html>
