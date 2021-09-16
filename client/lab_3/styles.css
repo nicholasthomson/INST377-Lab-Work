@@ -77,11 +77,11 @@
   }
 
 .first-item{
-    order: 3;
+    order: 4;
 }
 
 .second-item{
-    order: -1;
+    order: 2;
 }
 
 .third-item{
@@ -89,11 +89,11 @@
 }
 
 .fourth-item{
-    order: -1;
+    order: 5;
 }
 
 .last-item{
-    order: 4;
+    order: 3;
 }
 
 .footer {
