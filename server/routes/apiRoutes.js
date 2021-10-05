@@ -8,6 +8,7 @@ import db from '../database/initializeDB.js';
 const router = express.Router();
 
 router.get('/', (req, res) => {
+  console.log('You touched the default route!');
   res.send('Welcome to the UMD Dining API!');
 });
 
