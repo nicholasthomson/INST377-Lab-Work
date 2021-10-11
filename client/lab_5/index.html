@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nick Thomson - Lab 5</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"/>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-full">
+                        <div class="box has-background-success">
+                            <h1 class="title">Nick Thomson - Lab 5</h1>
+                        </div>
+                    </div>
+                    <div class="columns column is-three-quarters">
+                        <div class="column is-one-third">
+                            <form action= '/api' method='get' class= 'box'>
+                                <div class="field">
+                                    <label for="first" class="label">First Name</label
+                                    >
+                                    <div class="control">
+                                        <input type="text" class="input" id="first"/>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label for="food" class="label">Food Preference</label
+                                    >
+                                    <div class="control">
+                                        <input type="text" class="input" id="food"/>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label for="veggie_or_vegan" class="label">Veggie or Vegan?</label
+                                    >
+                                    <div class="control" name="veggie_or_vegan">
+                                        <label class="radio">
+                                            <input type="radio" name="answer" /> Yes</label>
+                                        <label class="radio">
+                                            <input type="radio" name="answer" /> No</label>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="control">
+                                        <button class="button is-link"> Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="column is-two-thirds is-align-self-center">
+                            <div class="box has-background-success">
+                                <p>
+                                    This is going to be something in two weeks
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
